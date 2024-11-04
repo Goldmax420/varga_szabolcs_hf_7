@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 50px;
+}
+
+.cards, .team {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;          
+    height: auto;         
+    border-radius: 5px;   
+    margin-bottom: 1rem;  
+}
